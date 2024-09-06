@@ -250,10 +250,25 @@ body{
         align-items: center;
        margin-top: -120px;
     }
-
-    
-    
-   
+    .modelo{
+        width: 83px;
+        height: 135px;
+       
+    }
+    .macas-modelo{
+      
+        gap: 10px;
+       
+    }
+}
+@media (min-width: 600px){
+    .modelo{
+        width: 174px;
+        height: 266px;
+    }
+    .macas-modelo{
+        gap:20px;
+    }
 }
 #linha{
     display: flex;
@@ -293,4 +308,16 @@ body{
 
 html{
     overflow-x: hidden;
+    }
+
+    .modelo{
+        background-color: white;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+        
+        border-radius: 5px;
+    }
+    .macas-modelo{
+        display: flex;
+        flex-direction: row;
+        margin-left: 20px;
     }
