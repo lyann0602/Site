@@ -14,3 +14,8 @@ function nextImage(){
 
     document.getElementById("radio"+ count). checked = true;
 }
+
+function setTopo(){
+    $(window).scrollTop(0);
+}
+$(window).bind('scroll', setTopo);
