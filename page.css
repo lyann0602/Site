@@ -251,15 +251,83 @@ body{
        margin-top: -120px;
     }
     .modelo{
-        width: 110px;
-        height: 175px;
+        width: 160px;
+        height: 250px;
        
     }
     .macas-modelo{
-      
-        gap: 10px;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    #linha{
+        display: flex;
+        align-items: center;
+        
        
     }
+    .linhas{
+        background-color: black;
+        width: 100%;
+        height: 2px;
+        
+    }
+    
+    #macas{
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        margin-top: 20px;
+        margin-left: 20px;
+        align-items: center;
+    }
+    
+    .linha1{
+        width: 3px;
+        height: 30px;
+        background-color: black;
+        
+    }
+    
+    .text1{
+        font-family: "Poppins", Sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        
+    }
+
+    
+        .modelo{
+            background-color: white;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+            
+            border-radius: 5px;
+        }
+        .macas-modelo{
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+    
+    #pai1{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+    
+    #pai2{
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+    }
+
+    #sobrenos{
+        width: 100%;
+        opacity: 0.80;
+        margin-top: 20px;
+    }
+
+    
 }
 @media (min-width: 600px){
     .modelo{
@@ -270,54 +338,6 @@ body{
         gap:20px;
     }
 }
-#linha{
-    display: flex;
-    align-items: center;
-    
-   
-}
-.linhas{
-    background-color: black;
-    width: 100%;
-    height: 2px;
-    
-}
 
-#macas{
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
-    margin-top: 20px;
-    margin-left: 20px;
-    align-items: center;
-}
 
-.linha1{
-    width: 3px;
-    height: 30px;
-    background-color: black;
-    
-}
 
-.text1{
-    font-family: "Poppins", Sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    
-}
-
-html{
-    overflow-x: hidden;
-    }
-
-    .modelo{
-        background-color: white;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-        
-        border-radius: 5px;
-    }
-    .macas-modelo{
-        display: flex;
-        flex-direction: row;
-        margin-left: 20px;
-    }
